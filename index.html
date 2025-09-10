@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DND - Cañabano Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="dnd.css" />
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="nav-links" role="menubar">
+                    <li role="none"><a href="#home" role="menuitem" tabindex="0">Home</a></li>
+                    <li role="none"><a href="#about" role="menuitem" tabindex="0">About</a></li>
+                    <li role="none"><a href="#skills" role="menuitem" tabindex="0">Skills</a></li>
+                    <li role="none"><a href="#contact" role="menuitem" tabindex="0">Contact</a></li>
+                    <li role="none" class="exit-btn">
+                        <a href="#" role="menuitem" tabindex="0" onclick="exitApp()">Exit</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero" aria-label="Introduction">
+        <div class="container">
+            <div class="hero-content">
+                <img src="dindo.jpg" alt="picture of Dindo Cañabano">
+                <h1>Dindo Cañabano</h1>
+                <p class="text">Hello! I'm Dindo, A computer science student of DEBESMSCAT, a graphic designer and I have a strong interest in video editing and exploring various tools to enhance my skills. Additionally, playing online games is a passion of mine. These interests drive my aspiration to become a programmer.</p>
+                <div class="cta-buttons">
+                    <a href="#resume" class="btn btn-primary" role="button">My Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="about-title">About Me</h2>
+                <p>Learn more about my background, passion, and what drives me in the world of technology</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Crafting Digital Excellence</h3>
+                    <p>I believe in the power of clean code, intuitive design, and continuous learning. When I'm not coding, you can find me exploring Canva and Capcut to gain more knowledge.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" aria-labelledby="resume-title">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="resume-title">Resume</h2>
+                <p>Summary of my professional experience and education</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Summary</h3>
+                    <p>Passionate about Graphic and programming, continuously improving coding skills in Python and HTML.</p>
+                    <h3>Work Experience</h3>
+                    <ul>
+                        <li>
+                            <strong>Graphic Design season 5, Top 5 Graphic Rank 03 (76.29%)</strong> -DEBESMSCAT (2024-2025)
+                            <p>Knowledge about design elements, such as color and composition, is vital for graphic designers. Artistic ability and creativity are essential technical skills. - Graphic design just requires the technical skills of design software programs such as Photoshop and PicsArt..</p>
+                        </li>
+                        <li>
+                            <strong>HACKATHON</strong> -DEBESMSCAT (2024 - 2025)
+                            <p>I became a novice programmer, designer, and innovator of my computer skills during the Hackathon. I learned how to solve problems, and importantly, I needed to collaborate with other programmers to make the work easier and improve the results. I also learned more programming languages like Linux and Java.</p>
+                        </li>
+                    </ul>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>
+                            <strong>Junior high</strong> -Aroroy National high school (2017 - 2020)
+                        </li>
+                        <li>
+                            <strong>Senior high</strong> -Aroroy National high school (2020 - 2022)
+                        </li>
+                        <li>
+                            <strong>College</strong> -Dr. Emillo B. Espinosa Sr. memorial state college of Agriculture and technology (2022 - 2025)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+                <p>Technical proficiency across various technologies and tools</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming language</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML5 & CSS</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>C</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Python</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Others</h3>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Git & GitHub</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 50%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Canva</span>
+                                <span>78%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 78%;"></div>
+                            </div>
+                        </li>
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span>Capcut</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contacts</h2>
+                <p>I'm always open to discussing new opportunities and interesting to gain more knowledge</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">E</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>dindor.canabano@email.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">P</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+639383829046</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/dindorcanabano-png" class="social-link" target="_blank" rel="noopener noreferrer">
+                            <svg height="20" width="20" viewBox="0 0 16 16" fill="#0366d6" xmlns="http://www.w3.org/2000/svg" style="margin-right: 6px;">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 012 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" />
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <div>
+                                <p>Please reach out via email or connect with me on social media. I'm looking forward to hearing from you!</p>
+                                <div>
+                                    <a href="mailto:dindor.canabano@gmail.com" class="btn btn-primary">Send Email</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <marquee behavior="scroll" direction="left">
+                    &copy;2025 DND Cañabano. All rights reserved.
+                </marquee>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function exitApp() {
+            alert('Exit clicked');
+        }
+    </script>
+
+</body>
+</html>
